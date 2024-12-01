@@ -6,7 +6,7 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root'
 })
 export class FileService {
-  private apiUrl = 'http://localhost:5000/api';
+  private apiUrl = 'https://folder-explorer-flask.onrender.com/api';
 
   constructor(private http: HttpClient) { }
 
